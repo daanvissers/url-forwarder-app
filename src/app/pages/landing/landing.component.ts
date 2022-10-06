@@ -3,7 +3,6 @@ import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { Subscription } from 'rxjs';
 import { Url } from 'src/app/interfaces/url';
 
-
 @Component({
   selector: 'app-landing',
   templateUrl: './landing.component.html',
