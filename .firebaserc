@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "url-forwarder-app": {
+      "hosting": {
+        "url-forwarder-app": [
+          "url-forwarder-app"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "url-forwarder-app"
+  }
+}
