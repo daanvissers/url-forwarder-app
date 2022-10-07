@@ -19,11 +19,11 @@ export class AddUrlComponent implements OnInit {
   addUrl(): void {
     const url: Url = {
       url: this.userInput,
-      date: Date()
+      date: new Date()
     };
 
     this.afStore.collection<Url>('urls').add(url).then(res => {
-      console.log(res);
+      alert('OK');
     });
   }
 

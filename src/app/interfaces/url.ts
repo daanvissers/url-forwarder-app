@@ -1,4 +1,4 @@
 export interface Url {
   url: string,
-  date: string
+  date: Date
 }
